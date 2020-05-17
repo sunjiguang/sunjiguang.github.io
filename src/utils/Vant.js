@@ -1,0 +1,22 @@
+import Vue from 'vue';
+import { NavBar,Toast  } from 'vant';
+import { Icon } from 'vant';
+import { Image as VanImage } from 'vant';
+import { Tab, Tabs } from 'vant';
+import { Search } from 'vant';
+import { Button } from 'vant';
+import { Tabbar, TabbarItem } from 'vant';
+import { Swipe, SwipeItem } from 'vant';
+
+Vue.use(Swipe);
+Vue.use(SwipeItem);
+Vue.use(Tabbar);
+Vue.use(TabbarItem);
+Vue.use(Button);
+Vue.use(Search);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(VanImage);
+Vue.use(Icon);
+Vue.use(NavBar);
+Vue.use(Toast);
